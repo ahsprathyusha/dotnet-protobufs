@@ -21,7 +21,6 @@ IF EXIST "%ProgramFiles(x86)%\MSBuild\Microsoft\Silverlight\v2.0\Microsoft.Silve
 ECHO Unable to locate %ProgramFiles(x86)%\MSBuild\Microsoft\Silverlight\v2.0
 GOTO ERROR
 
-
 REM -- 4.0 Debug_Silverlight2 build
 %WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild build.csproj /m /t:Rebuild /p:BuildConfiguration=Debug_Silverlight2 /p:Platform="Any CPU"
 IF ERRORLEVEL 1 GOTO ERROR
