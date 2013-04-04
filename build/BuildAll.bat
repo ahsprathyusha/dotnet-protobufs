@@ -7,7 +7,7 @@ REM -- 3.5 Debug build, ensure this continues to work
 %WINDIR%\Microsoft.NET\Framework\v3.5\MSBuild.exe build.csproj /t:Rebuild /p:BuildConfiguration=Debug /p:Platform="Any CPU" /p:BuildTools=3.5 /toolsversion:3.5"
 IF ERRORLEVEL 1 GOTO ERROR
 
-REM -- 4.0 Debug build
+REM -- 4.0 Debug 
 %WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild build.csproj /m /t:Rebuild /p:BuildConfiguration=Debug /p:Platform="Any CPU"
 IF ERRORLEVEL 1 GOTO ERROR
 
