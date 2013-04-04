@@ -30,7 +30,6 @@ REM -- 4.0 Release_Silverlight2 build
 %WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild build.csproj /m /t:Rebuild /p:BuildConfiguration=Release_Silverlight2 /p:Platform="Any CPU"
 IF ERRORLEVEL 1 GOTO ERROR
 
-
 GOTO END
 
 :ERROR
