@@ -14,3 +14,4 @@ Current task list (not in order)
 - Add regions to copyright
 - Build and publish binaries
 - Work out why the Compact Framework 3.5 build fails under VS2010
+- Checking whhether build is getting triggered or not.
